@@ -1,0 +1,36 @@
+/* Submodel VADIM_TRIVIAL_POWER_TO_FORCE_FORMULA skeleton created by AME Submodel editing utility
+   Sat Nov 2 22:16:39 2019 */
+
+
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "ameutils.h"
+#include <iostream>
+#include <string>
+
+
+#define _SUBMODELNAME_ "VADIM_TRIVIAL_POWER_TO_FORCE_FORMULA"
+
+void vadim_trivial_power_to_force_formulain_(int *n, char *tp[2], double *Velocity)
+{
+   char *PowerCurveFile, *TorqueCurveFile;
+   PowerCurveFile = tp[0];
+   TorqueCurveFile = tp[1];
+
+   *Velocity  =     0.00000000000000e+000;
+}
+
+void vadim_trivial_power_to_force_formula_(int *n, double *Velocity, double *Force, char *tp[2])
+{   
+   char *PowerCurveFile, *TorqueCurveFile;
+
+   PowerCurveFile = tp[0];
+   TorqueCurveFile = tp[1];
+   
+
+
+
+}
+

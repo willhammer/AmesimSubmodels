@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SPE>
+<SPE DOC_VERSION="2" AME_VERSION="2019.1.0 - 81842-80938 2019">
+
+ <SUBMODEL>
+  <SUB_TYPE>0</SUB_TYPE>
+  <SUB_ID_MAX>4</SUB_ID_MAX>
+  <DEFAULT_ICON>Vadim_PowerToForce</DEFAULT_ICON>
+  <SUB_UNIT>0</SUB_UNIT>
+  <OUTPUT_TYPE>1</OUTPUT_TYPE>
+  <TPARAMS_LIST>
+   <TPARAM>
+    <SUB_ID>3</SUB_ID>
+    <TITLE>Power Curve File</TITLE>
+    <VARNAME>PowerCurveFile</VARNAME>
+    <VISIBILITY>True</VISIBILITY>
+    <DEF_VALUE>powerCurve.dmu</DEF_VALUE>
+    <VALUE>powerCurve.dmu</VALUE>
+    <TEXT_TYPE>1</TEXT_TYPE>
+   </TPARAM>
+   <TPARAM>
+    <SUB_ID>4</SUB_ID>
+    <TITLE>Torque Curve File</TITLE>
+    <VARNAME>TorqueCurveFile</VARNAME>
+    <VISIBILITY>True</VISIBILITY>
+    <DEF_VALUE>torqueCurve.dmu</DEF_VALUE>
+    <VALUE>torqueCurve.dmu</VALUE>
+    <TEXT_TYPE>0</TEXT_TYPE>
+   </TPARAM>
+  </TPARAMS_LIST>
+  <EVARS_LIST>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>1</SUB_ID>
+     <TITLE>Velocity</TITLE>
+     <VARNAME>Velocity</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>3</IO>
+     <UNITS>m/s</UNITS>
+     <DEF_VALUE>0</DEF_VALUE>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>2</SUB_ID>
+     <TITLE>Force</TITLE>
+     <VARNAME>Force</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>N</UNITS>
+    </EVAR>
+   </PORT>
+  </EVARS_LIST>
+  <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+ </SUBMODEL>
+</SPE>

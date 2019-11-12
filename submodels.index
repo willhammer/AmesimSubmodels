@@ -1,0 +1,5 @@
+./submodels
+Vadim_AeroDrag
+&BASIC_AERO_DRAG_FORMULA VeDy
+Vadim_PowerToForce
+&VADIM_TRIVIAL_POWER_TO_FORCE_FORMULA VeDy
